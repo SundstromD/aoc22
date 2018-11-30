@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sundstrom/projects/aoc18/src/Runner.cpp
+algorithm
+-
+chrono
+-
+climits
+-
+cstdint
+-
+cstdlib
+-
+fstream
+-
+iomanip
+-
+iostream
+-
+sstream
+-
+Solution.hpp
+/home/sundstrom/projects/aoc18/src/Solution.hpp
+
+inc/Solution.hpp
+fstream
+-
+iostream
+-
+string
+-
+
