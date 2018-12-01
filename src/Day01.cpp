@@ -1,18 +1,47 @@
 #include "Default_includes.hpp"
 #include "Solution.hpp"
 
-static unsigned int calc_sum(const std::string& input, size_t offset)
+// Calculates the frequency for given array of deltas
+static unsigned int calc_frequency(const std::vector<unsigned int>& ins)
 {
-    auto sum = 0u;
-    for (auto i = 0u; i < input.size(); ++i)
+    std::string input;
+
+    auto frequency = 0u;
+    for (auto const& d : ins)
     {
-        if (input[i] == input[(i + offset) % input.size()])
+        frequency += d;
+    }
+
+    return frequency;
+}
+
+// Finds the first recurring frequency
+static unsigned int calc_recurring_frequency(const std::vector<unsigned int>& ins)
+{
+    std::unordered_set<unsigned int> frequency_set;
+
+    auto frequency = 0u;
+    frequency_set.insert(frequency);
+
+    bool found_recurring_frequency = false;
+    while (found_recurring_frequency == false) 
+    {
+        for (auto const& d : ins)
         {
-            sum += static_cast<unsigned int>(input[i] - '0');
+            frequency += d;
+
+            if (frequency_set.count(frequency) > 0)
+            {
+                found_recurring_frequency = true;
+                break;
+            } else
+            {
+                frequency_set.insert(frequency);
+            }
         }
     }
 
-    return sum;
+    return frequency;
 }
 
 template<>
@@ -25,9 +54,14 @@ void solve<Day01>(std::istream& ins, std::ostream& outs)
     }
 
     std::string input;
-    ins >> input;
+    std::vector<unsigned int> deltas;
 
-    outs << "(Part 1) Sum = " << calc_sum(input, 1) << std::endl
-         << "(Part 2) Sum = " << calc_sum(input, (input.size() / 2))
+    while (ins >> input)
+    {
+        deltas.push_back(std::stoi(input));
+    }
+    
+    outs << "(Part 1) Frequency = " << calc_frequency(deltas) << std::endl
+         << "(Part 2) Recurring Frequency = " << calc_recurring_frequency(deltas)
          << std::endl;
 }
