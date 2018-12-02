@@ -68,8 +68,6 @@ static std::string find_id_diff_by_one(const std::vector<std::string>& ids)
     {
         for (auto it = std::find(ids.cbegin(), ids.cend(), id) + 1; it != ids.cend(); it++)
         {
-            //std::cout << id << "   " << *it << std::endl;
-
             std::vector<int> diffIndex;
             for (std::size_t i = 0; i < id.size(); i++)
             {
