@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/aoc18.dir/src/Day01.cpp.o CMakeFiles/aoc18.dir/src/Runner.cpp.o CMakeFiles/aoc18.dir/src/Solution.cpp.o  -o aoc18 
+/usr/bin/c++     CMakeFiles/aoc18.dir/src/Day01.cpp.o CMakeFiles/aoc18.dir/src/Day02.cpp.o CMakeFiles/aoc18.dir/src/Runner.cpp.o CMakeFiles/aoc18.dir/src/Solution.cpp.o  -o aoc18 

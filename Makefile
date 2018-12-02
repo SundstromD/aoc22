@@ -196,6 +196,33 @@ src/Day01.cpp.s:
 	$(MAKE) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day01.cpp.s
 .PHONY : src/Day01.cpp.s
 
+src/Day02.o: src/Day02.cpp.o
+
+.PHONY : src/Day02.o
+
+# target to build an object file
+src/Day02.cpp.o:
+	$(MAKE) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day02.cpp.o
+.PHONY : src/Day02.cpp.o
+
+src/Day02.i: src/Day02.cpp.i
+
+.PHONY : src/Day02.i
+
+# target to preprocess a source file
+src/Day02.cpp.i:
+	$(MAKE) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day02.cpp.i
+.PHONY : src/Day02.cpp.i
+
+src/Day02.s: src/Day02.cpp.s
+
+.PHONY : src/Day02.s
+
+# target to generate assembly for a file
+src/Day02.cpp.s:
+	$(MAKE) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day02.cpp.s
+.PHONY : src/Day02.cpp.s
+
 src/Runner.o: src/Runner.cpp.o
 
 .PHONY : src/Runner.o
@@ -266,6 +293,9 @@ help:
 	@echo "... src/Day01.o"
 	@echo "... src/Day01.i"
 	@echo "... src/Day01.s"
+	@echo "... src/Day02.o"
+	@echo "... src/Day02.i"
+	@echo "... src/Day02.s"
 	@echo "... src/Runner.o"
 	@echo "... src/Runner.i"
 	@echo "... src/Runner.s"

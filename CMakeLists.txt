@@ -17,6 +17,7 @@ add_executable(aoc18
 	inc/Default_includes.hpp
 	inc/Solution.hpp
 	src/Day01.cpp
+	src/Day02.cpp
 	src/Runner.cpp
 	src/Solution.cpp)
 

@@ -5,6 +5,9 @@ CMakeFiles/aoc18.dir/src/Day01.cpp.o: src/Day01.cpp
 CMakeFiles/aoc18.dir/src/Day01.cpp.o: inc/Default_includes.hpp
 CMakeFiles/aoc18.dir/src/Day01.cpp.o: inc/Solution.hpp
 
+CMakeFiles/aoc18.dir/src/Day02.cpp.o: src/Day02.cpp
+CMakeFiles/aoc18.dir/src/Day02.cpp.o: inc/Solution.hpp
+
 CMakeFiles/aoc18.dir/src/Runner.cpp.o: src/Runner.cpp
 CMakeFiles/aoc18.dir/src/Runner.cpp.o: inc/Solution.hpp
 
