@@ -57,7 +57,7 @@ static unsigned int checksum_function(const std::vector<std::string>& ids)
 static std::string find_id_diff_by_one(const std::vector<std::string>& ids)
 {
     std::string commonLetterId;
-    for (auto const& id : ids)
+    for (auto id : ids)
     {
         for (auto it = std::find(ids.cbegin(), ids.cend(), id) + 1; it != ids.cend(); it++)
         {
@@ -70,17 +70,11 @@ static std::string find_id_diff_by_one(const std::vector<std::string>& ids)
                 }
             }
             
+            // Prune id if only one diff was found
             if (diffIndex.size() == 1) {
-                // Make copy of current id to be pruned
-                char idCopy[26];
-                std::size_t length = id.copy(idCopy, 26, 0);
-                idCopy[length] = '\0';
-                std::string prunedId(idCopy);
+                id.erase(id.cbegin() + diffIndex.front());
 
-                // Prune id
-                prunedId.erase(prunedId.cbegin() + diffIndex.front());
-
-                commonLetterId = prunedId;
+                commonLetterId = id;
             }
         }
     }
