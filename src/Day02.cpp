@@ -100,6 +100,6 @@ void solve<Day02>(std::istream& ins, std::ostream& outs)
     }
 
     outs << "(Part 1) Checksum = " << checksum_function(ids) << std::endl
-         << "(Part 2) ids that diff by one character= " << find_id_diff_by_one(ids)
+         << "(Part 2) ids that diff by one character = " << find_id_diff_by_one(ids)
          << std::endl;
 }
