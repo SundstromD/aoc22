@@ -31,22 +31,14 @@ static unsigned int checksum_function(const std::vector<std::string>& ids)
             {
                 if (found.empty() || found.front() != matches)
                 {
+                    if (matches == 2) { twiceMatched++; }
+                    else if (matches == 3) { trippleMatched++; }
+                    
                     charMap.insert(std::pair(c, matches));
                 }
 
                 found.push_back(matches);
             } 
-        }
-
-        for (auto const& charMatch : charMap)
-        {
-            if (charMatch.second == 2)
-            {
-                twiceMatched++;
-            } else if (charMatch.second == 3)
-            {
-                trippleMatched++;
-            }
         }
     }
 
