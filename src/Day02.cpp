@@ -25,14 +25,7 @@ static unsigned int checksum_function(const std::vector<std::string>& ids)
                 continue;
             }
 
-            auto matches = 0;
-            for (auto const& ch : id)
-            {
-                if (ch == c) 
-                {
-                    matches++;
-                }            
-            }
+            auto matches = std::count(id.cbegin(), id.cend(), c);
 
             if (found.size() < 2 && (matches == 2 || matches == 3)) 
             {
