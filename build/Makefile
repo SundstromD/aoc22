@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.25.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vft013/project/aoc18
+CMAKE_SOURCE_DIR = /Users/vft013/project/aoc22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vft013/project/aoc18/build
+CMAKE_BINARY_DIR = /Users/vft013/project/aoc22/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vft013/project/aoc18/build/CMakeFiles /Users/vft013/project/aoc18/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vft013/project/aoc22/build/CMakeFiles /Users/vft013/project/aoc22/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vft013/project/aoc18/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vft013/project/aoc22/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,24 +162,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aoc18
+# Target rules for targets named aoc22
 
 # Build rule for target.
-aoc18: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aoc18
-.PHONY : aoc18
+aoc22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aoc22
+.PHONY : aoc22
 
 # fast build rule for target.
-aoc18/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/build
-.PHONY : aoc18/fast
+aoc22/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/build
+.PHONY : aoc22/fast
 
 src/Day01.o: src/Day01.cpp.o
 .PHONY : src/Day01.o
 
 # target to build an object file
 src/Day01.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day01.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day01.cpp.o
 .PHONY : src/Day01.cpp.o
 
 src/Day01.i: src/Day01.cpp.i
@@ -187,7 +187,7 @@ src/Day01.i: src/Day01.cpp.i
 
 # target to preprocess a source file
 src/Day01.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day01.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day01.cpp.i
 .PHONY : src/Day01.cpp.i
 
 src/Day01.s: src/Day01.cpp.s
@@ -195,7 +195,7 @@ src/Day01.s: src/Day01.cpp.s
 
 # target to generate assembly for a file
 src/Day01.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day01.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day01.cpp.s
 .PHONY : src/Day01.cpp.s
 
 src/Day02.o: src/Day02.cpp.o
@@ -203,7 +203,7 @@ src/Day02.o: src/Day02.cpp.o
 
 # target to build an object file
 src/Day02.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day02.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day02.cpp.o
 .PHONY : src/Day02.cpp.o
 
 src/Day02.i: src/Day02.cpp.i
@@ -211,7 +211,7 @@ src/Day02.i: src/Day02.cpp.i
 
 # target to preprocess a source file
 src/Day02.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day02.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day02.cpp.i
 .PHONY : src/Day02.cpp.i
 
 src/Day02.s: src/Day02.cpp.s
@@ -219,7 +219,7 @@ src/Day02.s: src/Day02.cpp.s
 
 # target to generate assembly for a file
 src/Day02.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Day02.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day02.cpp.s
 .PHONY : src/Day02.cpp.s
 
 src/Runner.o: src/Runner.cpp.o
@@ -227,7 +227,7 @@ src/Runner.o: src/Runner.cpp.o
 
 # target to build an object file
 src/Runner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Runner.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Runner.cpp.o
 .PHONY : src/Runner.cpp.o
 
 src/Runner.i: src/Runner.cpp.i
@@ -235,7 +235,7 @@ src/Runner.i: src/Runner.cpp.i
 
 # target to preprocess a source file
 src/Runner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Runner.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Runner.cpp.i
 .PHONY : src/Runner.cpp.i
 
 src/Runner.s: src/Runner.cpp.s
@@ -243,7 +243,7 @@ src/Runner.s: src/Runner.cpp.s
 
 # target to generate assembly for a file
 src/Runner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Runner.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Runner.cpp.s
 .PHONY : src/Runner.cpp.s
 
 src/Solution.o: src/Solution.cpp.o
@@ -251,7 +251,7 @@ src/Solution.o: src/Solution.cpp.o
 
 # target to build an object file
 src/Solution.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Solution.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Solution.cpp.o
 .PHONY : src/Solution.cpp.o
 
 src/Solution.i: src/Solution.cpp.i
@@ -259,7 +259,7 @@ src/Solution.i: src/Solution.cpp.i
 
 # target to preprocess a source file
 src/Solution.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Solution.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Solution.cpp.i
 .PHONY : src/Solution.cpp.i
 
 src/Solution.s: src/Solution.cpp.s
@@ -267,7 +267,7 @@ src/Solution.s: src/Solution.cpp.s
 
 # target to generate assembly for a file
 src/Solution.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc18.dir/build.make CMakeFiles/aoc18.dir/src/Solution.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Solution.cpp.s
 .PHONY : src/Solution.cpp.s
 
 # Help Target
@@ -282,7 +282,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... aoc18"
+	@echo "... aoc22"
 	@echo "... src/Day01.o"
 	@echo "... src/Day01.i"
 	@echo "... src/Day01.s"

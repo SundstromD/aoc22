@@ -6,5 +6,5 @@ CXX_FLAGS =   -O3 -march=native -Wall -Wextra -Wpedantic -pedantic -pedantic-err
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sundstrom/projects/aoc18/inc 
+CXX_INCLUDES = -I/home/sundstrom/projects/aoc22/inc 
 

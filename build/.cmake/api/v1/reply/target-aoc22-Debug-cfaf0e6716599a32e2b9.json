@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "aoc18"
+			"path" : "aoc22"
 		}
 	],
 	"backtrace" : 1,
@@ -94,7 +94,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/vft013/project/aoc18/inc"
+					"path" : "/Users/vft013/project/aoc22/inc"
 				}
 			],
 			"language" : "CXX",
@@ -115,14 +115,14 @@
 			]
 		}
 	],
-	"id" : "aoc18::@6890427a1f51a3e7e1df",
+	"id" : "aoc22::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
 		[
 			{
 				"backtrace" : 2,
-				"path" : "/Users/vft013/project/aoc18"
+				"path" : "/Users/vft013/project/aoc22"
 			}
 		],
 		"prefix" : 
@@ -145,8 +145,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "aoc18",
-	"nameOnDisk" : "aoc18",
+	"name" : "aoc22",
+	"nameOnDisk" : "aoc22",
 	"paths" : 
 	{
 		"build" : ".",

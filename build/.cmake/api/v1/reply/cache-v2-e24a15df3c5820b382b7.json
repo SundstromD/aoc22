@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/vft013/project/aoc18/build"
+			"value" : "/Users/vft013/project/aoc22/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -159,7 +159,39 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/bin/clang++"
+			"value" : "/usr/local/bin/g++-12"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/gcc-ar-12"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/gcc-ranlib-12"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -251,7 +283,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang"
+			"value" : "/usr/local/bin/gcc-12"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -407,7 +439,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vft013/project/aoc18/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/vft013/project/aoc22/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -467,7 +499,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/vft013/project/aoc18"
+			"value" : "/Users/vft013/project/aoc22"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -751,7 +783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "aoc18"
+			"value" : "aoc22"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1034,7 +1066,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "aoc18_BINARY_DIR",
+			"name" : "aoc22_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1043,10 +1075,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vft013/project/aoc18/build"
+			"value" : "/Users/vft013/project/aoc22/build"
 		},
 		{
-			"name" : "aoc18_IS_TOP_LEVEL",
+			"name" : "aoc22_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1058,7 +1090,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "aoc18_SOURCE_DIR",
+			"name" : "aoc22_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1067,7 +1099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vft013/project/aoc18"
+			"value" : "/Users/vft013/project/aoc22"
 		}
 	],
 	"kind" : "cache",

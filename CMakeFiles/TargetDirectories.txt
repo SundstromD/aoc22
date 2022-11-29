@@ -1,7 +1,7 @@
-/home/sundstrom/projects/aoc18/CMakeFiles/install/strip.dir
-/home/sundstrom/projects/aoc18/CMakeFiles/edit_cache.dir
-/home/sundstrom/projects/aoc18/CMakeFiles/rebuild_cache.dir
-/home/sundstrom/projects/aoc18/CMakeFiles/list_install_components.dir
-/home/sundstrom/projects/aoc18/CMakeFiles/install/local.dir
-/home/sundstrom/projects/aoc18/CMakeFiles/aoc18.dir
-/home/sundstrom/projects/aoc18/CMakeFiles/install.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/install/strip.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/edit_cache.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/rebuild_cache.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/list_install_components.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/install/local.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/aoc22.dir
+/home/sundstrom/projects/aoc22/CMakeFiles/install.dir

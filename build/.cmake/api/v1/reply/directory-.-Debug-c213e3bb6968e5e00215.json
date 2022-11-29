@@ -27,12 +27,12 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "/Users/vft013/project/aoc18",
+			"destination" : "/Users/vft013/project/aoc22",
 			"paths" : 
 			[
-				"aoc18"
+				"aoc22"
 			],
-			"targetId" : "aoc18::@6890427a1f51a3e7e1df",
+			"targetId" : "aoc22::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
 			"type" : "target"
 		}

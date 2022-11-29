@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vft013/project/aoc18
+# Install script for directory: /Users/vft013/project/aoc22
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,18 +39,18 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/vft013/project/aoc18/aoc18")
+   "/Users/vft013/project/aoc22/aoc22")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/vft013/project/aoc18" TYPE EXECUTABLE FILES "/Users/vft013/project/aoc18/build/aoc18")
-  if(EXISTS "$ENV{DESTDIR}/Users/vft013/project/aoc18/aoc18" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/vft013/project/aoc18/aoc18")
+  file(INSTALL DESTINATION "/Users/vft013/project/aoc22" TYPE EXECUTABLE FILES "/Users/vft013/project/aoc22/build/aoc22")
+  if(EXISTS "$ENV{DESTDIR}/Users/vft013/project/aoc22/aoc22" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/vft013/project/aoc22/aoc22")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/vft013/project/aoc18/aoc18")
+      execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/vft013/project/aoc22/aoc22")
     endif()
   endif()
 endif()
@@ -63,5 +63,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/vft013/project/aoc18/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/vft013/project/aoc22/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

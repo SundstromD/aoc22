@@ -1,2 +1,2 @@
-# Empty dependencies file for aoc18.
+# Empty dependencies file for aoc22.
 # This may be replaced when dependencies are built.

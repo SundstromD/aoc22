@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.12.4)
 
-project (aoc18 CXX)
+project (aoc22 CXX)
 
 if(CMAKE_COMPILER_IS_GNUCXX
         OR(CMAKE_C_COMPILER_ID MATCHES "Clang")
@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(inc)
 
-add_executable(aoc18
+add_executable(aoc22
 	inc/Default_includes.hpp
 	inc/Solution.hpp
 	src/Day01.cpp
@@ -21,5 +21,5 @@ add_executable(aoc18
 	src/Runner.cpp
 	src/Solution.cpp)
 
-target_compile_options(aoc18 PUBLIC ${CXX_FLAGS})
-install(TARGETS aoc18 RUNTIME DESTINATION ${PROJECT_SOURCE_DIR})
+target_compile_options(aoc22 PUBLIC ${CXX_FLAGS})
+install(TARGETS aoc22 RUNTIME DESTINATION ${PROJECT_SOURCE_DIR})

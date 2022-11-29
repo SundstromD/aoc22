@@ -43,101 +43,101 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sundstrom/projects/aoc18
+CMAKE_SOURCE_DIR = /home/sundstrom/projects/aoc22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sundstrom/projects/aoc18
+CMAKE_BINARY_DIR = /home/sundstrom/projects/aoc22
 
 # Include any dependencies generated for this target.
-include CMakeFiles/aoc18.dir/depend.make
+include CMakeFiles/aoc22.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/aoc18.dir/progress.make
+include CMakeFiles/aoc22.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/aoc18.dir/flags.make
+include CMakeFiles/aoc22.dir/flags.make
 
-CMakeFiles/aoc18.dir/src/Day01.cpp.o: CMakeFiles/aoc18.dir/flags.make
-CMakeFiles/aoc18.dir/src/Day01.cpp.o: src/Day01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc18/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aoc18.dir/src/Day01.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc18.dir/src/Day01.cpp.o -c /home/sundstrom/projects/aoc18/src/Day01.cpp
+CMakeFiles/aoc22.dir/src/Day01.cpp.o: CMakeFiles/aoc22.dir/flags.make
+CMakeFiles/aoc22.dir/src/Day01.cpp.o: src/Day01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc22/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aoc22.dir/src/Day01.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc22.dir/src/Day01.cpp.o -c /home/sundstrom/projects/aoc22/src/Day01.cpp
 
-CMakeFiles/aoc18.dir/src/Day01.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc18.dir/src/Day01.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc18/src/Day01.cpp > CMakeFiles/aoc18.dir/src/Day01.cpp.i
+CMakeFiles/aoc22.dir/src/Day01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc22.dir/src/Day01.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc22/src/Day01.cpp > CMakeFiles/aoc22.dir/src/Day01.cpp.i
 
-CMakeFiles/aoc18.dir/src/Day01.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc18.dir/src/Day01.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc18/src/Day01.cpp -o CMakeFiles/aoc18.dir/src/Day01.cpp.s
+CMakeFiles/aoc22.dir/src/Day01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Day01.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc22/src/Day01.cpp -o CMakeFiles/aoc22.dir/src/Day01.cpp.s
 
-CMakeFiles/aoc18.dir/src/Day02.cpp.o: CMakeFiles/aoc18.dir/flags.make
-CMakeFiles/aoc18.dir/src/Day02.cpp.o: src/Day02.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc18/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aoc18.dir/src/Day02.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc18.dir/src/Day02.cpp.o -c /home/sundstrom/projects/aoc18/src/Day02.cpp
+CMakeFiles/aoc22.dir/src/Day02.cpp.o: CMakeFiles/aoc22.dir/flags.make
+CMakeFiles/aoc22.dir/src/Day02.cpp.o: src/Day02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc22/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aoc22.dir/src/Day02.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc22.dir/src/Day02.cpp.o -c /home/sundstrom/projects/aoc22/src/Day02.cpp
 
-CMakeFiles/aoc18.dir/src/Day02.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc18.dir/src/Day02.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc18/src/Day02.cpp > CMakeFiles/aoc18.dir/src/Day02.cpp.i
+CMakeFiles/aoc22.dir/src/Day02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc22.dir/src/Day02.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc22/src/Day02.cpp > CMakeFiles/aoc22.dir/src/Day02.cpp.i
 
-CMakeFiles/aoc18.dir/src/Day02.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc18.dir/src/Day02.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc18/src/Day02.cpp -o CMakeFiles/aoc18.dir/src/Day02.cpp.s
+CMakeFiles/aoc22.dir/src/Day02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Day02.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc22/src/Day02.cpp -o CMakeFiles/aoc22.dir/src/Day02.cpp.s
 
-CMakeFiles/aoc18.dir/src/Runner.cpp.o: CMakeFiles/aoc18.dir/flags.make
-CMakeFiles/aoc18.dir/src/Runner.cpp.o: src/Runner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc18/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aoc18.dir/src/Runner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc18.dir/src/Runner.cpp.o -c /home/sundstrom/projects/aoc18/src/Runner.cpp
+CMakeFiles/aoc22.dir/src/Runner.cpp.o: CMakeFiles/aoc22.dir/flags.make
+CMakeFiles/aoc22.dir/src/Runner.cpp.o: src/Runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc22/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aoc22.dir/src/Runner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc22.dir/src/Runner.cpp.o -c /home/sundstrom/projects/aoc22/src/Runner.cpp
 
-CMakeFiles/aoc18.dir/src/Runner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc18.dir/src/Runner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc18/src/Runner.cpp > CMakeFiles/aoc18.dir/src/Runner.cpp.i
+CMakeFiles/aoc22.dir/src/Runner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc22.dir/src/Runner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc22/src/Runner.cpp > CMakeFiles/aoc22.dir/src/Runner.cpp.i
 
-CMakeFiles/aoc18.dir/src/Runner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc18.dir/src/Runner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc18/src/Runner.cpp -o CMakeFiles/aoc18.dir/src/Runner.cpp.s
+CMakeFiles/aoc22.dir/src/Runner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Runner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc22/src/Runner.cpp -o CMakeFiles/aoc22.dir/src/Runner.cpp.s
 
-CMakeFiles/aoc18.dir/src/Solution.cpp.o: CMakeFiles/aoc18.dir/flags.make
-CMakeFiles/aoc18.dir/src/Solution.cpp.o: src/Solution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc18/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aoc18.dir/src/Solution.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc18.dir/src/Solution.cpp.o -c /home/sundstrom/projects/aoc18/src/Solution.cpp
+CMakeFiles/aoc22.dir/src/Solution.cpp.o: CMakeFiles/aoc22.dir/flags.make
+CMakeFiles/aoc22.dir/src/Solution.cpp.o: src/Solution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sundstrom/projects/aoc22/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aoc22.dir/src/Solution.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aoc22.dir/src/Solution.cpp.o -c /home/sundstrom/projects/aoc22/src/Solution.cpp
 
-CMakeFiles/aoc18.dir/src/Solution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc18.dir/src/Solution.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc18/src/Solution.cpp > CMakeFiles/aoc18.dir/src/Solution.cpp.i
+CMakeFiles/aoc22.dir/src/Solution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc22.dir/src/Solution.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sundstrom/projects/aoc22/src/Solution.cpp > CMakeFiles/aoc22.dir/src/Solution.cpp.i
 
-CMakeFiles/aoc18.dir/src/Solution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc18.dir/src/Solution.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc18/src/Solution.cpp -o CMakeFiles/aoc18.dir/src/Solution.cpp.s
+CMakeFiles/aoc22.dir/src/Solution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Solution.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sundstrom/projects/aoc22/src/Solution.cpp -o CMakeFiles/aoc22.dir/src/Solution.cpp.s
 
-# Object files for target aoc18
-aoc18_OBJECTS = \
-"CMakeFiles/aoc18.dir/src/Day01.cpp.o" \
-"CMakeFiles/aoc18.dir/src/Day02.cpp.o" \
-"CMakeFiles/aoc18.dir/src/Runner.cpp.o" \
-"CMakeFiles/aoc18.dir/src/Solution.cpp.o"
+# Object files for target aoc22
+aoc22_OBJECTS = \
+"CMakeFiles/aoc22.dir/src/Day01.cpp.o" \
+"CMakeFiles/aoc22.dir/src/Day02.cpp.o" \
+"CMakeFiles/aoc22.dir/src/Runner.cpp.o" \
+"CMakeFiles/aoc22.dir/src/Solution.cpp.o"
 
-# External object files for target aoc18
-aoc18_EXTERNAL_OBJECTS =
+# External object files for target aoc22
+aoc22_EXTERNAL_OBJECTS =
 
-aoc18: CMakeFiles/aoc18.dir/src/Day01.cpp.o
-aoc18: CMakeFiles/aoc18.dir/src/Day02.cpp.o
-aoc18: CMakeFiles/aoc18.dir/src/Runner.cpp.o
-aoc18: CMakeFiles/aoc18.dir/src/Solution.cpp.o
-aoc18: CMakeFiles/aoc18.dir/build.make
-aoc18: CMakeFiles/aoc18.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sundstrom/projects/aoc18/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable aoc18"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aoc18.dir/link.txt --verbose=$(VERBOSE)
+aoc22: CMakeFiles/aoc22.dir/src/Day01.cpp.o
+aoc22: CMakeFiles/aoc22.dir/src/Day02.cpp.o
+aoc22: CMakeFiles/aoc22.dir/src/Runner.cpp.o
+aoc22: CMakeFiles/aoc22.dir/src/Solution.cpp.o
+aoc22: CMakeFiles/aoc22.dir/build.make
+aoc22: CMakeFiles/aoc22.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sundstrom/projects/aoc22/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable aoc22"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aoc22.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/aoc18.dir/build: aoc18
+CMakeFiles/aoc22.dir/build: aoc22
 
-.PHONY : CMakeFiles/aoc18.dir/build
+.PHONY : CMakeFiles/aoc22.dir/build
 
-CMakeFiles/aoc18.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/aoc18.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/aoc18.dir/clean
+CMakeFiles/aoc22.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/aoc22.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/aoc22.dir/clean
 
-CMakeFiles/aoc18.dir/depend:
-	cd /home/sundstrom/projects/aoc18 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sundstrom/projects/aoc18 /home/sundstrom/projects/aoc18 /home/sundstrom/projects/aoc18 /home/sundstrom/projects/aoc18 /home/sundstrom/projects/aoc18/CMakeFiles/aoc18.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/aoc18.dir/depend
+CMakeFiles/aoc22.dir/depend:
+	cd /home/sundstrom/projects/aoc22 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sundstrom/projects/aoc22 /home/sundstrom/projects/aoc22 /home/sundstrom/projects/aoc22 /home/sundstrom/projects/aoc22 /home/sundstrom/projects/aoc22/CMakeFiles/aoc22.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/aoc22.dir/depend
 

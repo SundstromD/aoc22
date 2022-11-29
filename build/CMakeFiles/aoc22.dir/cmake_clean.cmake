@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/aoc22.dir/src/Day01.cpp.o"
+  "CMakeFiles/aoc22.dir/src/Day01.cpp.o.d"
   "CMakeFiles/aoc22.dir/src/Day02.cpp.o"
+  "CMakeFiles/aoc22.dir/src/Day02.cpp.o.d"
   "CMakeFiles/aoc22.dir/src/Runner.cpp.o"
+  "CMakeFiles/aoc22.dir/src/Runner.cpp.o.d"
   "CMakeFiles/aoc22.dir/src/Solution.cpp.o"
-  "aoc22.pdb"
+  "CMakeFiles/aoc22.dir/src/Solution.cpp.o.d"
   "aoc22"
+  "aoc22.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
