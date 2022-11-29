@@ -73,7 +73,7 @@ int main(int argc, const char* argv[])
 
 static std::chrono::duration<double, std::milli> time_day(Day d, std::ostream& outs)
 {
-    std::ifstream ins {"inputs/" + day_to_string(d) + ".txt"};
+    std::ifstream ins {"../inputs/" + day_to_string(d) + ".txt"};
 
     auto start = timer::now();
     select_day(d, ins, outs);

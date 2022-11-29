@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/aoc18.dir/src/Day01.cpp.o CMakeFiles/aoc18.dir/src/Day02.cpp.o CMakeFiles/aoc18.dir/src/Runner.cpp.o CMakeFiles/aoc18.dir/src/Solution.cpp.o -o aoc18 
