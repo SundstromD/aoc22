@@ -77,6 +77,8 @@
         "semaphore": "cpp",
         "stack": "cpp",
         "string": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "memory_resource": "cpp",
+        "stop_token": "cpp"
     }
 }

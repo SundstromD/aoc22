@@ -1,47 +1,15 @@
 #include "Default_includes.hpp"
 #include "Solution.hpp"
 
-// Calculates the frequency for given array of deltas
-static unsigned int calc_frequency(const std::vector<unsigned int>& ins)
+// Find the max calories carried
+static std::pair<unsigned int, unsigned int> calc_max_calories(const std::unordered_map<unsigned int, unsigned int>& ins)
 {
-    std::string input;
-
-    auto frequency = 0u;
-    for (auto const& d : ins)
-    {
-        frequency += d;
-    }
-
-    return frequency;
-}
-
-// Finds the first recurring frequency
-static unsigned int calc_recurring_frequency(const std::vector<unsigned int>& ins)
-{
-    std::unordered_set<unsigned int> frequency_set;
-
-    auto frequency = 0u;
-    frequency_set.insert(frequency);
-
-    bool found_recurring_frequency = false;
-    while (found_recurring_frequency == false) 
-    {
-        for (auto const& d : ins)
-        {
-            frequency += d;
-
-            if (frequency_set.count(frequency) > 0)
-            {
-                found_recurring_frequency = true;
-                break;
-            } else
-            {
-                frequency_set.insert(frequency);
-            }
-        }
-    }
-
-    return frequency;
+    return *std::max_element(
+        ins.begin(), 
+        ins.end(),
+         [](const std::pair<unsigned int, unsigned int>& p1, const std::pair<unsigned int, unsigned int>& p2) {
+            return p1.second < p2.second; 
+            });
 }
 
 template<>
@@ -54,14 +22,39 @@ void solve<Day01>(std::istream& ins, std::ostream& outs)
     }
 
     std::string input;
-    std::vector<unsigned int> deltas;
+    std::unordered_map<unsigned int, unsigned int> caloriesByElf;
 
-    while (ins >> input)
+    auto elf = 0u;
+    while (std::getline(ins, input))
     {
-        deltas.push_back(std::stoi(input));
+        if (input.empty())
+        {
+            elf++;
+            continue;
+        }
+
+        auto elfExist = caloriesByElf.count(elf);
+        unsigned int calories = std::stoi(input);
+
+        if (elfExist == 0)
+        {
+            caloriesByElf[elf] = calories;
+        } else 
+        {
+            auto oldCalories = caloriesByElf.at(elf);
+            caloriesByElf[elf] = oldCalories + calories;
+        }
     }
+
+    std::pair<unsigned int, unsigned int> max = calc_max_calories(caloriesByElf);
+    caloriesByElf.erase(max.first);
     
-    outs << "(Part 1) Frequency = " << calc_frequency(deltas) << std::endl
-         << "(Part 2) Recurring Frequency = " << calc_recurring_frequency(deltas)
-         << std::endl;
+    std::pair<unsigned int, unsigned int> second_max = calc_max_calories(caloriesByElf);
+    caloriesByElf.erase(second_max.first);
+
+    std::pair<unsigned int, unsigned int> third_max = calc_max_calories(caloriesByElf);
+    caloriesByElf.erase(third_max.first);
+    
+    outs << "(Part 1) Max calories = " << max.second<< std::endl
+         << "(Part 2) Top three elves combined calories = " << max.second + second_max.second + third_max.second << std::endl;
 }
