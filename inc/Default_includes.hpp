@@ -17,6 +17,8 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
+#include <sstream>
+#include <map>
 
 
 #endif // DEFAULT_INCLUDES_HPP_

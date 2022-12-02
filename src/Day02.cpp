@@ -1,6 +1,5 @@
 #include "Default_includes.hpp"
 #include "Solution.hpp"
-#include <sstream>
 
 /*
 * A = ROCK
@@ -19,50 +18,6 @@
 * Y = draw
 * Z = win
 */
-
-static unsigned int score(const char& i_1, const char& i_2)
-{
-    if(i_1 == 'A' && i_2 == 'Y')
-    {
-        return 2 + 6;
-    }
-    else if(i_1 == 'A' && i_2 == 'Z')
-    {
-        return 3 + 0;
-    }       
-    else if(i_1 == 'A' && i_2 == 'X')
-    {
-        return 1 + 3;
-    }
-
-    else if(i_1 == 'B' && i_2 == 'Y')
-    {
-        return 2 + 3;
-    }
-    else if(i_1 == 'B' && i_2 == 'Z')
-    {
-        return 3 + 6;
-    }       
-    else if(i_1 == 'B' && i_2 == 'X')
-    {
-        return 1 + 0;
-    }
-
-    else if(i_1 == 'C' && i_2 == 'Y')
-    {
-        return 2 + 0;
-    }
-    else if(i_1 == 'C' && i_2 == 'Z')
-    {
-        return 3 + 3;
-    }       
-    else if(i_1 == 'C' && i_2 == 'X')
-    {
-        return 1 + 6;
-    }
-
-    return 0;
-}
 
 static char what_to_play(const char& i_1, const char& i_2)
 {
@@ -128,6 +83,19 @@ template<> void solve<Day02>(std::istream& ins, std::ostream& outs)
     std::string input;
     std::vector<std::pair<char, char>> games;
     std::vector<std::pair<char, char>> games_p2;
+    std::map<std::pair<char, char>, unsigned int> score_map;
+
+    score_map[{'A', 'Y'}] = 8;
+    score_map[{'A', 'Z'}] = 3;
+    score_map[{'A', 'X'}] = 4;
+
+    score_map[{'B', 'Y'}] = 5;
+    score_map[{'B', 'Z'}] = 9;
+    score_map[{'B', 'X'}] = 1;
+
+    score_map[{'C', 'Y'}] = 2;
+    score_map[{'C', 'Z'}] = 6;
+    score_map[{'C', 'X'}] = 7;
 
     while (std::getline(ins, input)) 
     {
@@ -141,12 +109,12 @@ template<> void solve<Day02>(std::istream& ins, std::ostream& outs)
 
     for(auto it = games.begin(); it != games.end(); ++it)
     {
-        total_score += score((*it).first, (*it).second);
+        total_score += score_map[*it];
     }
 
     for(auto it = games_p2.begin(); it != games_p2.end(); ++it)
     {
-        total_score_p2 += score((*it).first, (*it).second);
+        total_score_p2 += score_map[*it];
     }
 
     outs << "(Part 1) Total score = " << total_score << std::endl

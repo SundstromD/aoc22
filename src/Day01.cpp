@@ -12,8 +12,7 @@ static std::pair<unsigned int, unsigned int> calc_max_calories(const std::unorde
             });
 }
 
-template<>
-void solve<Day01>(std::istream& ins, std::ostream& outs)
+template<>void solve<Day01>(std::istream& ins, std::ostream& outs)
 {
     if (!ins.good())
     {
