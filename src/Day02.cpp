@@ -1,81 +1,64 @@
-#include <list>
-#include <vector>
-#include <unordered_map>
-#include <algorithm>
+#include "Default_includes.hpp"
 #include "Solution.hpp"
+#include <sstream>
 
-// Calculate the checksum of the ids
-static unsigned int checksum_function(const std::vector<std::string>& ids) 
+/*
+* A = ROCK
+* B = PAPER
+* C = SCISSOR
+*
+* Y = PAPER
+* X = ROCK
+* Z = SCISSOR
+*
+* LOSS = 0, DRAW = 3, WIN = 6
+* ROCK = 1, PAPER = 2, SCISSOR = 3
+*/
+static unsigned int score(const char& i_1, const char& i_2)
 {
-    auto twiceMatched = 0;
-    auto trippleMatched = 0;
-
-    // Find matches for each id
-    for (auto const& id : ids)
+    if(i_1 == 'A' && i_2 == 'Y')
     {
-        // Map to store twice or tripple matched chars
-        std::unordered_map<char, int> charMap;
-        std::list<int> found;
-
-        for (auto const& c : id)
-        {
-            // no need to count if map already has the char
-            if (charMap.count(c) > 0) 
-            {
-                continue;
-            }
-
-            auto matches = std::count(id.cbegin(), id.cend(), c);
-
-            if (found.size() < 2 && (matches == 2 || matches == 3)) 
-            {
-                if (found.empty() || found.front() != matches)
-                {
-                    if (matches == 2) { twiceMatched++; }
-                    else if (matches == 3) { trippleMatched++; }
-                    
-                    charMap.insert(std::pair(c, matches));
-                }
-
-                found.push_back(matches);
-            } 
-        }
+        return 2 + 6;
+    }
+    else if(i_1 == 'A' && i_2 == 'Z')
+    {
+        return 3 + 0;
+    }       
+    else if(i_1 == 'A' && i_2 == 'X')
+    {
+        return 1 + 3;
     }
 
-    return twiceMatched * trippleMatched;
-}
-
-// Finds id that differs by one char at exactly the same position.
-static std::string find_id_diff_by_one(const std::vector<std::string>& ids)
-{
-    std::string commonLetterId;
-    for (auto id : ids)
+    else if(i_1 == 'B' && i_2 == 'Y')
     {
-        for (auto it = std::find(ids.cbegin(), ids.cend(), id) + 1; it != ids.cend(); it++)
-        {
-            std::vector<int> diffIndex;
-            for (std::size_t i = 0; i < id.size(); i++)
-            {
-                if (id[i] != (*it)[i])
-                {
-                    diffIndex.push_back(i);
-                }
-            }
-            
-            // Prune id if only one diff was found
-            if (diffIndex.size() == 1) {
-                id.erase(id.cbegin() + diffIndex.front());
-
-                commonLetterId = id;
-            }
-        }
+        return 2 + 3;
+    }
+    else if(i_1 == 'B' && i_2 == 'Z')
+    {
+        return 3 + 6;
+    }       
+    else if(i_1 == 'B' && i_2 == 'X')
+    {
+        return 1 + 0;
     }
 
-    return commonLetterId;
+    else if(i_1 == 'C' && i_2 == 'Y')
+    {
+        return 2 + 0;
+    }
+    else if(i_1 == 'C' && i_2 == 'Z')
+    {
+        return 3 + 3;
+    }       
+    else if(i_1 == 'C' && i_2 == 'X')
+    {
+        return 1 + 6;
+    }
+
+    return 0;
 }
 
-template<>
-void solve<Day02>(std::istream& ins, std::ostream& outs)
+template<> void solve<Day02>(std::istream& ins, std::ostream& outs)
 {
     if (!ins.good())
     {
@@ -84,14 +67,21 @@ void solve<Day02>(std::istream& ins, std::ostream& outs)
     }
 
     std::string input;
-    std::vector<std::string> ids;
+    std::vector<std::pair<char, char>> games;
 
-    while (ins >> input) 
+    while (std::getline(ins, input)) 
     {
-        ids.push_back(input);
+        games.push_back(std::make_pair(input.at(0), input.at(2)));
     }
 
-    outs << "(Part 1) Checksum = " << checksum_function(ids) << std::endl
-         << "(Part 2) ids that diff by one character = " << find_id_diff_by_one(ids)
+    auto total_score = 0u;
+
+    for(auto it = games.begin(); it != games.end(); ++it)
+    {
+        total_score += score((*it).first, (*it).second);
+    }
+
+    outs << "(Part 1) Total score = " << total_score << std::endl
+         << "(Part 2) Total score part 2 = " 
          << std::endl;
 }
