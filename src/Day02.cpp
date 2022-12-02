@@ -19,6 +19,22 @@
 * Z = win
 */
 
+struct hash_pair {
+    template <class T1, class T2>
+    size_t operator()(const std::pair<T1, T2>& p) const
+    {
+        auto hash1 = std::hash<T1>{}(p.first);
+        auto hash2 = std::hash<T2>{}(p.second);
+ 
+        if (hash1 != hash2) {
+            return hash1 ^ hash2;             
+        }
+         
+        // If hash1 == hash2, their XOR is zero.
+          return hash1;
+    }
+};
+
 static char what_to_play(const char& i_1, const char& i_2)
 {
     if(i_2 == 'X') // LOSE
@@ -83,7 +99,7 @@ template<> void solve<Day02>(std::istream& ins, std::ostream& outs)
     std::string input;
     std::vector<std::pair<char, char>> games;
     std::vector<std::pair<char, char>> games_p2;
-    std::map<std::pair<char, char>, unsigned int> score_map;
+    std::unordered_map<std::pair<char, char>, unsigned int, hash_pair> score_map;
 
     score_map[{'A', 'Y'}] = 8;
     score_map[{'A', 'Z'}] = 3;
