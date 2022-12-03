@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/aoc22.dir/src/Day01.cpp.o.d"
   "CMakeFiles/aoc22.dir/src/Day02.cpp.o"
   "CMakeFiles/aoc22.dir/src/Day02.cpp.o.d"
+  "CMakeFiles/aoc22.dir/src/Day03.cpp.o"
+  "CMakeFiles/aoc22.dir/src/Day03.cpp.o.d"
   "CMakeFiles/aoc22.dir/src/Runner.cpp.o"
   "CMakeFiles/aoc22.dir/src/Runner.cpp.o.d"
   "CMakeFiles/aoc22.dir/src/Solution.cpp.o"

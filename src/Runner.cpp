@@ -170,10 +170,10 @@ static void select_day(Day d, std::istream& ins, std::ostream& outs)
     case Day02:
         solve<Day02>(ins, outs);
         break;
-    /*case Day03:
+    case Day03:
         solve<Day03>(ins, outs);
         break;
-    case Day04:
+    /*case Day04:
         solve<Day04>(ins, outs);
         break;
     case Day05:

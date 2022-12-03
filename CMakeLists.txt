@@ -18,6 +18,7 @@ add_executable(aoc22
 	inc/Solution.hpp
 	src/Day01.cpp
 	src/Day02.cpp
+	src/Day03.cpp
 	src/Runner.cpp
 	src/Solution.cpp)
 
