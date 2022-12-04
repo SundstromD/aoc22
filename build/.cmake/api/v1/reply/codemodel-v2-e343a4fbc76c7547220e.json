@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-510abdc3addfd615caa8.json",
+					"jsonFile" : "directory-.-Debug-b8d62042cc64e7921749.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12.4"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "aoc22::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-aoc22-Debug-36b4c0cb36aaa4d96092.json",
+					"jsonFile" : "target-aoc22-Debug-2299b6b63bc8b23fe9e5.json",
 					"name" : "aoc22",
 					"projectIndex" : 0
 				}

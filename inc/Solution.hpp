@@ -4,6 +4,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <vector>
 
 enum Day {
     Day01, Day02, Day03, Day04, Day05,
@@ -17,6 +18,8 @@ enum Day {
 std::string day_to_string(Day d);
 
 template<Day d> void solve(std::istream& input, std::ostream& output);
+
+std::vector<std::string> tokenize(std::string s, std::string del);
 
 struct hash_pair {
     template <class T1, class T2>

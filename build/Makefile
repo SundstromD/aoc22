@@ -246,6 +246,30 @@ src/Day03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day03.cpp.s
 .PHONY : src/Day03.cpp.s
 
+src/Day04.o: src/Day04.cpp.o
+.PHONY : src/Day04.o
+
+# target to build an object file
+src/Day04.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day04.cpp.o
+.PHONY : src/Day04.cpp.o
+
+src/Day04.i: src/Day04.cpp.i
+.PHONY : src/Day04.i
+
+# target to preprocess a source file
+src/Day04.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day04.cpp.i
+.PHONY : src/Day04.cpp.i
+
+src/Day04.s: src/Day04.cpp.s
+.PHONY : src/Day04.s
+
+# target to generate assembly for a file
+src/Day04.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day04.cpp.s
+.PHONY : src/Day04.cpp.s
+
 src/Runner.o: src/Runner.cpp.o
 .PHONY : src/Runner.o
 
@@ -316,6 +340,9 @@ help:
 	@echo "... src/Day03.o"
 	@echo "... src/Day03.i"
 	@echo "... src/Day03.s"
+	@echo "... src/Day04.o"
+	@echo "... src/Day04.i"
+	@echo "... src/Day04.s"
 	@echo "... src/Runner.o"
 	@echo "... src/Runner.i"
 	@echo "... src/Runner.s"
