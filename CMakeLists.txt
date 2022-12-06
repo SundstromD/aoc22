@@ -20,6 +20,8 @@ add_executable(aoc22
 	src/Day02.cpp
 	src/Day03.cpp
 	src/Day04.cpp
+	src/Day05.cpp
+	src/Day06.cpp
 	src/Runner.cpp
 	src/Solution.cpp)
 

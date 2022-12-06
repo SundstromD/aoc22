@@ -270,6 +270,54 @@ src/Day04.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day04.cpp.s
 .PHONY : src/Day04.cpp.s
 
+src/Day05.o: src/Day05.cpp.o
+.PHONY : src/Day05.o
+
+# target to build an object file
+src/Day05.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day05.cpp.o
+.PHONY : src/Day05.cpp.o
+
+src/Day05.i: src/Day05.cpp.i
+.PHONY : src/Day05.i
+
+# target to preprocess a source file
+src/Day05.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day05.cpp.i
+.PHONY : src/Day05.cpp.i
+
+src/Day05.s: src/Day05.cpp.s
+.PHONY : src/Day05.s
+
+# target to generate assembly for a file
+src/Day05.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day05.cpp.s
+.PHONY : src/Day05.cpp.s
+
+src/Day06.o: src/Day06.cpp.o
+.PHONY : src/Day06.o
+
+# target to build an object file
+src/Day06.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day06.cpp.o
+.PHONY : src/Day06.cpp.o
+
+src/Day06.i: src/Day06.cpp.i
+.PHONY : src/Day06.i
+
+# target to preprocess a source file
+src/Day06.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day06.cpp.i
+.PHONY : src/Day06.cpp.i
+
+src/Day06.s: src/Day06.cpp.s
+.PHONY : src/Day06.s
+
+# target to generate assembly for a file
+src/Day06.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc22.dir/build.make CMakeFiles/aoc22.dir/src/Day06.cpp.s
+.PHONY : src/Day06.cpp.s
+
 src/Runner.o: src/Runner.cpp.o
 .PHONY : src/Runner.o
 
@@ -343,6 +391,12 @@ help:
 	@echo "... src/Day04.o"
 	@echo "... src/Day04.i"
 	@echo "... src/Day04.s"
+	@echo "... src/Day05.o"
+	@echo "... src/Day05.i"
+	@echo "... src/Day05.s"
+	@echo "... src/Day06.o"
+	@echo "... src/Day06.i"
+	@echo "... src/Day06.s"
 	@echo "... src/Runner.o"
 	@echo "... src/Runner.i"
 	@echo "... src/Runner.s"

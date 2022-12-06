@@ -125,10 +125,38 @@ CMakeFiles/aoc22.dir/src/Day04.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Day04.cpp.s"
 	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vft013/project/aoc22/src/Day04.cpp -o CMakeFiles/aoc22.dir/src/Day04.cpp.s
 
+CMakeFiles/aoc22.dir/src/Day05.cpp.o: CMakeFiles/aoc22.dir/flags.make
+CMakeFiles/aoc22.dir/src/Day05.cpp.o: /Users/vft013/project/aoc22/src/Day05.cpp
+CMakeFiles/aoc22.dir/src/Day05.cpp.o: CMakeFiles/aoc22.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aoc22.dir/src/Day05.cpp.o"
+	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aoc22.dir/src/Day05.cpp.o -MF CMakeFiles/aoc22.dir/src/Day05.cpp.o.d -o CMakeFiles/aoc22.dir/src/Day05.cpp.o -c /Users/vft013/project/aoc22/src/Day05.cpp
+
+CMakeFiles/aoc22.dir/src/Day05.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc22.dir/src/Day05.cpp.i"
+	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vft013/project/aoc22/src/Day05.cpp > CMakeFiles/aoc22.dir/src/Day05.cpp.i
+
+CMakeFiles/aoc22.dir/src/Day05.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Day05.cpp.s"
+	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vft013/project/aoc22/src/Day05.cpp -o CMakeFiles/aoc22.dir/src/Day05.cpp.s
+
+CMakeFiles/aoc22.dir/src/Day06.cpp.o: CMakeFiles/aoc22.dir/flags.make
+CMakeFiles/aoc22.dir/src/Day06.cpp.o: /Users/vft013/project/aoc22/src/Day06.cpp
+CMakeFiles/aoc22.dir/src/Day06.cpp.o: CMakeFiles/aoc22.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aoc22.dir/src/Day06.cpp.o"
+	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aoc22.dir/src/Day06.cpp.o -MF CMakeFiles/aoc22.dir/src/Day06.cpp.o.d -o CMakeFiles/aoc22.dir/src/Day06.cpp.o -c /Users/vft013/project/aoc22/src/Day06.cpp
+
+CMakeFiles/aoc22.dir/src/Day06.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aoc22.dir/src/Day06.cpp.i"
+	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vft013/project/aoc22/src/Day06.cpp > CMakeFiles/aoc22.dir/src/Day06.cpp.i
+
+CMakeFiles/aoc22.dir/src/Day06.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aoc22.dir/src/Day06.cpp.s"
+	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vft013/project/aoc22/src/Day06.cpp -o CMakeFiles/aoc22.dir/src/Day06.cpp.s
+
 CMakeFiles/aoc22.dir/src/Runner.cpp.o: CMakeFiles/aoc22.dir/flags.make
 CMakeFiles/aoc22.dir/src/Runner.cpp.o: /Users/vft013/project/aoc22/src/Runner.cpp
 CMakeFiles/aoc22.dir/src/Runner.cpp.o: CMakeFiles/aoc22.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aoc22.dir/src/Runner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aoc22.dir/src/Runner.cpp.o"
 	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aoc22.dir/src/Runner.cpp.o -MF CMakeFiles/aoc22.dir/src/Runner.cpp.o.d -o CMakeFiles/aoc22.dir/src/Runner.cpp.o -c /Users/vft013/project/aoc22/src/Runner.cpp
 
 CMakeFiles/aoc22.dir/src/Runner.cpp.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/aoc22.dir/src/Runner.cpp.s: cmake_force
 CMakeFiles/aoc22.dir/src/Solution.cpp.o: CMakeFiles/aoc22.dir/flags.make
 CMakeFiles/aoc22.dir/src/Solution.cpp.o: /Users/vft013/project/aoc22/src/Solution.cpp
 CMakeFiles/aoc22.dir/src/Solution.cpp.o: CMakeFiles/aoc22.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aoc22.dir/src/Solution.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/aoc22.dir/src/Solution.cpp.o"
 	/usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aoc22.dir/src/Solution.cpp.o -MF CMakeFiles/aoc22.dir/src/Solution.cpp.o.d -o CMakeFiles/aoc22.dir/src/Solution.cpp.o -c /Users/vft013/project/aoc22/src/Solution.cpp
 
 CMakeFiles/aoc22.dir/src/Solution.cpp.i: cmake_force
@@ -159,6 +187,8 @@ aoc22_OBJECTS = \
 "CMakeFiles/aoc22.dir/src/Day02.cpp.o" \
 "CMakeFiles/aoc22.dir/src/Day03.cpp.o" \
 "CMakeFiles/aoc22.dir/src/Day04.cpp.o" \
+"CMakeFiles/aoc22.dir/src/Day05.cpp.o" \
+"CMakeFiles/aoc22.dir/src/Day06.cpp.o" \
 "CMakeFiles/aoc22.dir/src/Runner.cpp.o" \
 "CMakeFiles/aoc22.dir/src/Solution.cpp.o"
 
@@ -169,11 +199,13 @@ aoc22: CMakeFiles/aoc22.dir/src/Day01.cpp.o
 aoc22: CMakeFiles/aoc22.dir/src/Day02.cpp.o
 aoc22: CMakeFiles/aoc22.dir/src/Day03.cpp.o
 aoc22: CMakeFiles/aoc22.dir/src/Day04.cpp.o
+aoc22: CMakeFiles/aoc22.dir/src/Day05.cpp.o
+aoc22: CMakeFiles/aoc22.dir/src/Day06.cpp.o
 aoc22: CMakeFiles/aoc22.dir/src/Runner.cpp.o
 aoc22: CMakeFiles/aoc22.dir/src/Solution.cpp.o
 aoc22: CMakeFiles/aoc22.dir/build.make
 aoc22: CMakeFiles/aoc22.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable aoc22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vft013/project/aoc22/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable aoc22"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aoc22.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
